@@ -5,5 +5,10 @@ Addition, Subtraction, Multiplication, Division, Tempature Conversion, Area Calc
 # Installation
 Download the source code and run the pyhton file, dummy
 # Credits
-Myself, 
+Myself
+<br>
 Bro Code, for his awesome tutorials
+<br>
+Microsoft, for making VS Code
+<br>
+Guido van Rossum, for making Python
