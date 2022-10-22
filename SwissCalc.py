@@ -10,6 +10,7 @@ print("6. Area Calculator(circle)")
 print("7. Farenheight to Celsius")
 print("8. Celsius to Farenheight")
 print("9. Hypotenuse calculator")
+print("10. Area Calculator (Prism)")
 oper = input("Enter it here: ")
 if oper == "1":
     add1 = float(input("enter first number: "))
@@ -61,6 +62,15 @@ elif oper == "9":
     b = float(input("Enter side B: "))
     c = math.sqrt(pow(a, 2) + pow(b, 2))
     print(f"Side C is {c}")
+
+elif oper == "10":
+    l = float(input("pls enter the length "))
+    w = float(input("pls enter the width "))
+    v = float(input("Enter the volume: "))
+    area = l * w * v
+    print(f"the area is {area}cm^2")
+
+
 
 else:
     print("Invalid operation")
