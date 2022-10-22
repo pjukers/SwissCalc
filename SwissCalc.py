@@ -68,7 +68,7 @@ elif oper == "10":
     w = float(input("pls enter the width "))
     v = float(input("Enter the volume: "))
     area = l * w * v
-    print(f"the area is {area}cm^2")
+    print(f"the area is {area}cm^3")
 
 
 
