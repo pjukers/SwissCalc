@@ -1,6 +1,7 @@
 import math
 print("Welcome.")
 print("Type the number of the operation you select.")
+print("Math:")
 print("1. Addition➕")
 print("2. Subtraction➖")
 print("3. Multiplication✖")
@@ -11,12 +12,15 @@ print("7. Farenheight to Celsius")
 print("8. Celsius to Farenheight")
 print("9. Hypotenuse calculator")
 print("10. Area Calculator (Prism)")
+print("11. Kinetic Energry Calculator")
 oper = input("Enter it here: ")
 if oper == "1":
     add1 = float(input("enter first number: "))
     add2 = float(input("enter second number: "))
     addsum = add1 + add2
     print(f"the sum is: {addsum}")
+    if addsum == 69420.0:
+        print("💀")
 
 elif oper == "2":
     sub1 = float(input("enter first number: "))
@@ -68,7 +72,14 @@ elif oper == "10":
     w = float(input("pls enter the width "))
     v = float(input("Enter the volume: "))
     area = l * w * v
-    print(f"the area is {area}cm^3")
+    print(f"the area is {area}cm^2")
+
+elif oper == "11":
+    ma = float(input("Enter the mass: "))
+    ve = float(input("Enter the velocity squared : "))
+    KE = 0.5 * ma * ve
+    print(f"The kinetic energy required is {KE}")
+
 
 
 
